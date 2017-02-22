@@ -1,0 +1,30 @@
+# Assign the variable meal the value 44.50 on line 3!
+meal = 44.50
+
+meal = 44.50
+tax = .0675
+
+# You're almost there! Assign the tip variable on line 5.
+
+meal = 44.50
+tax = 0.0675
+tip = .15
+
+# Reassign meal on line 7!
+
+meal = 44.50
+tax = 0.0675
+tip = 0.15
+meal = (meal * tax) + meal
+print meal
+
+# Assign the variable total on line 8!
+
+meal = 44.50
+tax = 0.0675
+tip = 0.15
+
+meal = meal + meal * tax
+total = meal + meal * tip
+
+print("%.2f" % total)
