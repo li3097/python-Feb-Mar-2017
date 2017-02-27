@@ -1,0 +1,144 @@
+def tax(bill):
+    """Adds 8% tax to a restaurant bill."""
+    bill *= 1.08
+    print "With tax: %f" % bill
+    return bill
+
+def tip(bill):
+    """Adds 15% tip to a restaurant bill."""
+    bill *= 1.15
+    print "With tip: %f" % bill
+    return bill
+    
+meal_cost = 100
+meal_with_tax = tax(meal_cost)
+meal_with_tip = tip(meal_with_tax)
+
+
+# Define your spam function starting on line 5. You
+# can leave the code on line 11 alone for now--we'll
+# explain it soon!
+
+def spam():
+   """It will print "eggs!"""
+   print "Eggs!"
+
+
+# Define the spam function above this line.
+spam()
+
+def square(n):
+    """Returns the square of a number."""
+    squared = n**2
+    print "%d squared is %d." % (n, squared)
+    return squared
+    
+# Call the square function on line 9! Make sure to
+# include the number 10 between the parentheses.
+square(10)
+
+def square(n):
+    """Returns the square of a number."""
+    squared = n**2
+    print "%d squared is %d." % (n, squared)
+    return squared
+    
+# Call the square function on line 9! Make sure to
+# include the number 10 between the parentheses.
+square(10)
+
+def one_good_turn(n):
+    return n + 1
+    
+def deserves_another(n):
+    return one_good_turn(n) + 2
+
+def cube(number):
+    return number**3
+    
+def by_three(number):
+    if number %3 == 0:
+       return cube(number)
+    else :
+       return False
+       print by_three(9)
+
+# Ask Python to print sqrt(25) on line 3.
+
+print sqrt(25)
+
+# Ask Python to print sqrt(25) on line 3.
+import math
+print math.sqrt(25)
+
+# Import *just* the sqrt function from math on line 3!
+
+from math import sqrt
+
+# Import *everything* from the math module on line 3!
+
+from math import *
+
+import math            # Imports the math module
+everything = dir(math) # Sets everything to a list of things from math
+print everything       # Prints 'em all!
+
+def biggest_number(*args):
+    print max(args)
+    return max(args)
+    
+def smallest_number(*args):
+    print min(args)
+    return min(args)
+
+def distance_from_zero(arg):
+    print abs(arg)
+    return abs(arg)
+
+
+biggest_number(-10, -5, 5, 10)
+smallest_number(-10, -5, 5, 10)
+distance_from_zero(-10)
+
+# Set maximum to the max value of any set of numbers on line 3!
+
+maximum = max(1, 2, 3, 4, 5, 6, 7, 8, 9, 39)
+
+print maximum
+
+# Set minimum to the min value of any set of numbers on line 3!
+
+minimum = min(7, 21, 34, 56, 32, 51)
+
+print minimum
+
+
+absolute = abs(-42)
+
+print absolute
+
+# Print out the types of an integer, a float,
+# and a string on separate lines below.
+print type(99)
+print type (9.9)
+print type ('ninety-nine')
+
+def shut_down(s):
+    
+ if s == "yes":
+    return "Shutting down"
+ elif s == "no":
+    return "Shutdown aborted"
+ else:
+    return "Sorry"
+
+from math import sqrt
+print sqrt(13689)
+
+def distance_from_zero(a):
+    if type(a) == int or type(a) == float:
+        return abs(a)
+    else:
+        return "Nope"
+        
+    distance_from_zero(-5)
